@@ -40,8 +40,6 @@ const dataset = [
   { id: 2, brand: "iPhone", model: "iPhone 14 Plus", x: [256, 899, 4] },
   { id: 3, brand: "iPhone", model: "iPhone 14 Pro", x: [512, 999, 5] },
   { id: 4, brand: "iPhone", model: "iPhone 14 Pro Max", x: [512, 1299, 7] },
-    { id: 5, brand: "iPhone", model: "iPhone 15 Pro Max", x: [1024, 1000, 8] },
-
 
   // === Samsung ===
   { id: 5, brand: "Samsung", model: "Galaxy S24", x: [128, 599, 8] },
