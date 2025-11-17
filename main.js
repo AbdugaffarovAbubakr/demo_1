@@ -36,22 +36,22 @@ function sinflashYangiTelefon(yangiX, maLummotlar, p = 2, aniqlikEpsilon = 1e-6)
 // === 3) Dataset (telefonlar: brend va model bilan) ===
 const dataset = [
   // === iPhone ===
-  { id: 1, brand: "iPhone", model: "iPhone 14", x: [128, 799, 3] },
-  { id: 2, brand: "iPhone", model: "iPhone 14 Plus", x: [256, 899, 4] },
-  { id: 3, brand: "iPhone", model: "iPhone 14 Pro", x: [512, 999, 5] },
-  { id: 4, brand: "iPhone", model: "iPhone 14 Pro Max", x: [512, 1299, 7] },
+  { id: 1, brand: "iPhone",  x: [128, 799, 3] },
+  { id: 2, brand: "iPhone",  x: [256, 899, 4] },
+  { id: 3, brand: "iPhone",  x: [512, 999, 5] },
+  { id: 4, brand: "iPhone",  x: [512, 1299, 7] },
 
   // === Samsung ===
-  { id: 5, brand: "Samsung", model: "Galaxy S24", x: [128, 599, 8] },
-  { id: 6, brand: "Samsung", model: "Galaxy S24+", x: [256, 1199, 9] },
-  { id: 7, brand: "Samsung", model: "Galaxy S24 Ultra", x: [512, 1199, 10] },
-  { id: 8, brand: "Samsung", model: "Galaxy S24 Ultra+", x: [512, 1399, 11] },
+  { id: 5, brand: "Samsung", x: [128, 599, 8] },
+  { id: 6, brand: "Samsung", x: [256, 1199, 9] },
+  { id: 7, brand: "Samsung", x: [512, 1199, 10] },
+  { id: 8, brand: "Samsung", x: [512, 1399, 11] },
 
-  // === Redmi ===
-  { id: 9, brand: "Redmi", model: "Redmi Note 14 128GB", x: [128, 199, 12] },
-  { id: 10, brand: "Redmi", model: "Redmi Note 14 256GB", x: [256, 299, 13] },
-  { id: 11, brand: "Redmi", model: "Redmi Note 14 Pro", x: [512, 399, 14 ]},
-  { id: 12, brand: "Redmi", model: "Redmi Note 14 Pro Max", x: [512, 499, 15] },
+  // === Redmi === 
+  { id: 9, brand: "Redmi",  x: [128, 199, 12] },
+  { id: 10, brand: "Redmi", x: [256, 299, 13] },
+  { id: 11, brand: "Redmi", x: [512, 399, 14 ]},
+  { id: 12, brand: "Redmi", x: [512, 499, 15] },
 ];
 
 // === 4) Asosiy ishchi qism ===
